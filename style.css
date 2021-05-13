@@ -1,0 +1,98 @@
+.square-out {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+  padding: 1em;
+}
+
+.inputChange14 {
+  width: 25em;
+}
+
+.inputChange14-active {
+  color: red;
+  padding-right: 10rem;
+}
+
+.inputHide-active {
+  display: none;
+}
+
+.inputHide {
+  width: 15em;
+}
+
+.inputRounded-active {
+  color: red;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+}
+
+.inputRounded,
+.inputStyle20 {
+  width: 17em;
+}
+
+.box7__btnChange,
+.boxBtn,
+.btnChange14,
+.btnChange16,
+.inputBlock,
+.inputUnBlock,
+.btnReplace,
+.btnChange {
+  margin-top: 10px;
+}
+
+.inputUnBlock {
+  display: none;
+}
+
+.inputUnBlock-active {
+  display: block;
+}
+
+.pushButton {
+  width: 15em;
+}
+
+.inputSwap2,
+.inputResult,
+.inputResult2,
+.btnChange {
+  margin-left: 15px;
+}
+
+.btn21,
+.btnSqr,
+.btnSqr2,
+.mousePoint {
+  margin: 15px 0 10px 125px;
+}
+
+.pointer-active {
+  cursor: not-allowed;
+  width: 120px;
+}
+
+.formBlock {
+  display: grid;
+  width: 160px;
+  margin-left: 125px;
+}
+
+.boxSymbols,
+.boxNumbers {
+  display: grid;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.changeText {
+  display: inline-block;
+}
+
+.formStyle20 {
+  display: inline-block;
+  margin-bottom: 10px;
+}

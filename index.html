@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw5</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js1.js"></script>
+  </head>
+  <body>
+    <!-- Задание 1 -->
+    <h3>Задание 1</h3>
+    <button onclick="alert('(1) Привет!')">Нажми на меня!</button>
+    <hr />
+
+    <!-- Задание 2 -->
+    <h3>Задание 2</h3>
+    <button onmouseover="alert('(2) Привет!')">Наведи на меня!</button>
+    <hr />
+
+    <!-- Задание 3 -->
+    <h3>Задание 3</h3>
+    <button ondblclick="alert('(3) Привет!')">Двойной счелчок по мне!</button>
+    <hr />
+
+    <!-- Задание 4 -->
+    <h3>Задание 4</h3>
+    <div class="square-out" onmouseout="alert('(4) Привет!')">
+      Наведи на меня мышь - а потом убери!
+    </div>
+    <hr />
+
+    <!-- Задание 5 -->
+    <h3>Задание 5</h3>
+    <input id="input-click5" type="text" value="Ку-ку" />
+    <button onclick="buttonClick5()">Нажми на меня!</button>
+    <hr />
+
+    <!-- Задание 6 -->
+    <h3>Задание 6</h3>
+    <input id="input-change6" type="text" value="Ку-ку" />
+    <button onclick="buttonChange6()">Нажми на меня!</button>
+    <hr />
+
+    <!-- Задание 7 -->
+    <h3>Задание 7</h3>
+    <div class="box7">
+      <img id="box7__Monkey" src="./img/1.jpg" width="200" />
+      <div class="box7__btnChange">
+        <button onclick="btnChangeMonkey()">Нажми на меня!</button>
+      </div>
+    </div>
+    <hr />
+
+    <!-- Задание 14 -->
+    <div>
+      <h3>Задание 14</h3>
+      <form>
+        <input class="inputChange14" type="text" value="Изменится цвет текста и увеличится ширина поля!" />
+      </form>
+      <button class="btnChange14" onclick="inputChangeCss()">
+        Нажми на меня!
+      </button>
+    </div>
+    <hr />
+
+    <!-- Задание 15 -->
+    <div>
+      <h3>Задание 15</h3>
+      <div>
+        <form>
+          <input class="inputHide" type="text" value="Исчезну - нажав на кнопку 1!">
+        </form>
+        <div class="boxBtn">
+        <button class="btnHide" onclick="inputCssHide()">
+          Кнопка 1!
+        </button>
+        <button class="btnReturn" onclick="inputCssShow()">
+          Кнопка 2 - вернусь!
+        </button>
+      </div>
+      </div>
+    <hr />
+
+        <!-- Задание 16 -->
+        <div>
+          <h3>Задание 16</h3>
+            <form>
+              <input class="inputRounded" type="text" value="Изменится форма и цвет текста! " />
+            </form>
+            <button class="btnChange16" onclick="inputCssRounded()">
+              Нажми на меня!
+            </button>
+        </div>
+        <hr />
+
+        <!-- Задание 17 -->
+        <div>
+          <h3>Задание 17</h3>
+          <p>Это input type="submit".</p>
+            <form>
+              <input
+                class="inputBlock"
+                type="submit"
+                onclick="inputBlockFun(); return false"
+                value="Нажми на меня!"
+              />
+              <input
+                class="inputUnBlock"
+                type="submit"
+                onclick="inputUnBlockFun(); return false"
+                value="Нажми, чтобы разблокировать элемент выше!"
+              />
+            </form>
+          </div>
+          <hr />
+          
+        <!-- Задание 18 -->
+        <div>
+          <h3>Задание 18</h3>
+          <div class="flex m-rem">
+            <form action="">
+              <input
+                class="pushButton"
+                type="submit"
+                value="0"
+                onclick="pushButton18(); return false"
+              />
+            </form>
+          </div>
+        </div>
+        <hr />
+
+        <!-- Задание 19 -->
+        <h3>Задание 19</h3>
+
+
+        <!-- Задание 20 -->
+        <h3>Задание 20</h3>
+        <div class="textChange">
+          <form class="formStyle20">
+            <input id="inputChange" class="inputStyle20" type="text" value="Ку-ку" />
+          <button class="btnChange" onclick="changeText()">Нажми на меня!</button>
+        </form>
+        </div>
+        <hr />
+
+        <!-- Задание 21 -->
+        <h3>Задание 21</h3>
+        <div class="box21">
+          <form action="">
+            <input class="inputSwap1" type="text" value="Привет!" />
+            <input class="inputSwap2" type="text" value="Пока!" />
+          </form>
+          <button class="btn21" onclick="inputSwap21()">Нажми на меня!</button>
+        </div>
+        <hr />
+    
+        <!-- Задание 22 -->
+        <h3>Задание 22</h3>
+        <div class="sqrNumberZ22">
+          <form action="">
+            <input class="inputSqr" type="number" placeholder="Введите число" />
+            <input class="inputResult" type="submit" disabled value="Результат" />
+          </form>
+          <button class="btnSqr" onclick="sqrNumber()">Нажми на меня!</button>
+        </div>
+        <hr />
+    
+        <!-- Задание 23 -->
+        <h3>Задание 23</h3>
+        <div class="sqrNumberCheckZ23">
+          <form action="">
+            <input class="inputSqr2" type="text" placeholder="Введите число" />
+            <input class="inputResult2" type="submit" disabled value="Результат" />
+          </form>
+          <button class="btnSqr2" onclick="sqrNumberCheck();">
+            Нажми на меня!
+          </button>
+        </div>
+        <hr />
+
+        <!-- Задание 24 -->
+        <h3>Задание 24</h3>
+        <div class="mousePointZ24">
+          <form action="">
+            <input
+              class="mousePoint"
+              type="submit"
+              onclick="mousePointBtn(this); return false"
+              value="Нажми на меня!"
+            />
+          </form>
+        </div>
+        <hr />
+
+        <!-- Задание 25 -->
+        <h3>Задание 25</h3>
+        <div class="formSymbol">
+          <form action="" class="formBlock">
+            <input type="text" class="inputSymbol" />
+          <div class="boxSymbols">
+            <input
+              type="submit"
+              class="plus"
+              value="+"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="minus"
+              value="-"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="division"
+              value="/"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="multiplication"
+              value="*"
+              onclick="addSymbol(this); return false"
+            />
+          </div>
+          <div class="boxNumbers">
+            <input
+              type="submit"
+              class="one"
+              value="1"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="two"
+              value="2"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="three"
+              value="3"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="four"
+              value="4"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="five"
+              value="5"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="six"
+              value="6"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="seven"
+              value="7"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="eight"
+              value="8"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="nine"
+              value="9"
+              onclick="addSymbol(this); return false"
+            />
+            <input
+              type="submit"
+              class="zero"
+              value="0"
+              onclick="addSymbol(this); return false"
+            />
+          </div>
+          </form>
+        </div>
+        <hr />
+
+  </body>
+</html>
