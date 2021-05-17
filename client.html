@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients</title>
+    <script src="./detectisAuth.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./client.css">
+    <script src="./client.js" defer></script>
+    <script src="./out.js" defer></script>
+
+</head>
+<body>
+    <div class="box1_Home">
+    <section id="clientSection"  class="clientStyle">
+    <div class="home__content">
+        <header class="header">
+            <div><a href="home.html"><img class="header__logo" src="./img/logo.png" alt="logo" width="200px" height="100px"></a></div>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li><a href="home.html" class="header__link" >Главная</a></li>
+                    <li><a href="client.html" class="header__link__active">Клиенты</a></li>
+                    <li><a href="map.html" class="header__link">Карта</a></li>
+                </ul>
+            </nav>
+        </hr>
+            <button class="btnOut">Выйти</button>
+        </header>
+    </div>
+    </section>
+
+    <div class="balance-gender">
+        <div class="balance"></div>
+        <div class="male"></div>
+        <div class="female"></div>
+    </div>
+    <table class="client-tb">
+        <thead>
+            <tr>
+                <td>Имя</td>
+                <td>Компания</td>
+                <td>Email</td>
+                <td>Телефон</td>
+                <td>Баланс</td>
+                <td>Дата регистраии</td>
+                <td>Удалить</td>
+            </tr>
+        </thead>
+
+        <tbody class="t-body"></tbody>
+    </table>
+    <div class="modal reg">
+        <div class="bg-opacity"></div>
+        <div class="modal-message">
+            <div class="modal-text"></div>
+            <div>
+                <button class="remove">Удалить</button>
+                <button class="cancel">Отмена</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="info">
+        <div class="info-hide">&#10060;</div>
+        <div class="info-remove">
+            Данные успешно удалены
+        </div>
+    </div>
+
+    <div class="btnUp">&#10150</div>
+    <footer class="footer">2021 Все права защищены.</footer>
+    </div>
+</body>
+</html>

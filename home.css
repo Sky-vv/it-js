@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(230.95deg, #511ae8 -0.37%, #37BDA6 100%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.homeStyle {
+    width: 70%;
+    margin: 0 15%; 
+}
+
+.header {
+    height: 150px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 0 20% 0;
+}
+
+.header__menu {
+    width: 500px;
+}
+
+.header__list {
+    display: flex;
+    justify-content:space-between;
+    list-style:none;
+    padding: 0 50px;
+}
+
+.header__link,
+.header__link__active {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.header__link__active {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  text-shadow: -5px -5px 0px #EF7657;
+  background: radial-gradient(#9DA8A9 1px, transparent 1px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textHome__h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.textHome__text {
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;
+    margin-bottom: 25%;
+}
+
+.btnOut {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #445abe;
+}
+.box1_Home{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.footer {
+    background-color: transparent;
+    padding: 20px;
+    margin-top: auto;
+}
